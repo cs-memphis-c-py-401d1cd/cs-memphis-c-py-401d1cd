@@ -33,6 +33,5 @@ Introduction to Python Language
 - Virtual Environments
 - Command-line scripts and user input
 
-Ensure that you've completed the [401 Python Pre-work](https://codefellows.github.io/code-401-python-guide/curriculum/prework/){:target="_blank"}.
 
 It's extremely critical that you're set up and ready to go on day 1, and if not you need to **notify your instructor** as soon as possible regarding any of the pre-work that you were unable to complete.
