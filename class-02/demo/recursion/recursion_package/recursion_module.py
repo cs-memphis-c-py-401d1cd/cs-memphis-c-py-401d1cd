@@ -1,14 +1,15 @@
+# Use this function to recursively calculate the final factorial value
 def factorial(n):
-    """
-    return n! (as it's sometimes written)
-    e.g. factorial(3) = 3 * 2 * 1 = 6
-
-    Note: Normally wouldn't name a package or module this way
-    but wanted to be really clear about which was which
-
-    Bonus: hover your mouse over the function name when importing
-    """
+    # When we countdown to 1 we are done
     if n <= 1:
-        return 1
+        isOne = 1
+        print(f'{isOne}')    
+        return isOne
 
-    return n * factorial(n - 1)
+    print(f'{n} * ')
+    return (n * factorial(n - 1))
+
+# Get the end number for factorial
+inputNumber = int(input("enter a number: "));
+print(f'factorial for {inputNumber} is {factorial(inputNumber)}')
+
