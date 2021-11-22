@@ -2,23 +2,39 @@
 
 Today you'll begin working on a command line version of the dice game `greed` using core Python tools and understanding of the basics of the language. The game is also known as Ten Thousand, Zilch or Foo.
 
-## Learning Objectives
+# Game of Greed
 
-### Students will be able to
+## Version 1
 
-#### Describe and Define
+- GameLogic class
+  - roll_dice
+  - calculate_score
 
-- Modularizing components of an application
-- Risk Analysis
-- Feature prioritization
+- Banker
+  - deposit/bank
+  - shelf
+  - clear
 
-#### Execute
+## Version 2
 
-- Counter module
-- Implement game logic
-- Create helper classes
+- beginning Game class
+  - allows banking or quitting on first roll of multiple rounds
+  - no rerolls
+  - no zilches
+  - no cheating checks
+- Introducing Flow testing with Flo
 
-<!-- ## Today's Outline -->
+## Version 3
 
-<!-- To Be Completed By Instructor -->
+- validate_keepers
+- get_scorers
+- Advanced Game class
+  - rerolls allowed
+  - using all six dice resets to six dice
+  - zilches happen
+  - cheating is checked
+
+## Version 4
+
+- Bot time (optional)
 
