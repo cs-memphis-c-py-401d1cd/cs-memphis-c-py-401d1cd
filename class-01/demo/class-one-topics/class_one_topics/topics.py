@@ -22,6 +22,9 @@ def input_output():
 
     print(color_response)
 
+    # `Test text ${varname}
+    # \n
+    # ${varname2}`
     formatted_string = f"You're favorite color is {color}. Great choice!"
 
     print(formatted_string)
