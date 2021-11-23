@@ -57,10 +57,7 @@ class GameLogic:
     # TODO: Need a method to validate the dice player enters to keep. For now always return valid
     def validate_keepers(roll, keepers):
         return True
-        # # version_3
-
-        # return not Counter(keepers) - Counter(roll)
-
+       
     @staticmethod
     # TODO: Need a method to determine scoring from dice kept (if any) and return the scores for scorable dice
     def get_scorers(dice):
