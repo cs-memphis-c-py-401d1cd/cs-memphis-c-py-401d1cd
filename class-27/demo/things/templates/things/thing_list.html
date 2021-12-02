@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>List of All Things</h1>
+{% for thing in all_object_things %} 
+<!-- <h2><a href="{{thing.pk}}">{{thing.name}}</a></h2> -->
+<h2><a href="{% url 'thing_detail' thing.pk %}">{{thing.name}}</a></h2>
+{% endfor %} 
+{% endblock content %}
