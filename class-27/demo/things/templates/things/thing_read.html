@@ -5,4 +5,6 @@
 <h2>{{the_thing.name}}</h2>
 <h3>{{the_thing.rating}}</h3>
 <h3>{{the_thing.reviewer}}</h3>
+<h2><a href="{% url 'thing_delete' the_thing.pk %}">Delete</a></h2>
+<h2><a href="{% url 'thing_update' the_thing.pk %}">Modify</a></h2>
 {% endblock content %}
