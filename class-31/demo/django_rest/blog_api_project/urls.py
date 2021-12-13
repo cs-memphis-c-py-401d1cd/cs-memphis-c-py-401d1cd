@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('api/posts', include('posts.urls')), # wire in posts routes
+    path('api/posts/', include('posts.urls')), # wire in posts routes
     path('admin/', admin.site.urls),
 ]
