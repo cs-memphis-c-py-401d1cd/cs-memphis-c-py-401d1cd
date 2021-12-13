@@ -14,3 +14,12 @@ class PostList(generics.ListAPIView):
 class PostDetail(generics.RetrieveAPIView):
     queryset = Posts.objects.all()
     serializer_class = PostSerializer
+
+
+class PostUpdate(generics.RetrieveUpdateAPIView):
+    queryset = Posts.objects.all()
+    serializer_class = PostSerializer    
+
+class PostDelete(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Posts.objects.all()
+    serializer_class = PostSerializer    
