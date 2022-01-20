@@ -2,7 +2,7 @@
 
 ## Modify API
 
-- Three small changes are needed to API.
+- Three small changes are needed to API *from lab 39 in Canvas*.
 - By default, minimal information is included in the JWT returned by API.
 - We need to make a small change to include more info bundled in the tokens.
 - `project/views.py`
